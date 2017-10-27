@@ -132,7 +132,7 @@ function sendUserInput2Dialogflow(sender, text) {
     if (APIAI_CLIENT_ACCESS_TOKEN) {
         let apiaiClient = apiai(APIAI_CLIENT_ACCESS_TOKEN);
 
-        let apiaiRequest = apiaiRequestClient.textRequest(text, {
+        let apiaiRequest = apiaiClient.textRequest(text, {
             sessionId: sender // use any arbitrary id
         });
     
