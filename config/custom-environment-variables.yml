@@ -1,0 +1,15 @@
+# Enable configuration overrides via environment variables
+
+host: HOST
+port: PORT
+
+mongo:
+  url: MONGO_URL
+
+facebook:
+  app_secret: FB_APP_SECRET
+  verify_token: FB_VERIFY_TOKEN
+  page_access_token: FB_PAGE_ACCESS_TOKEN
+
+dialogflow:
+  client_access_token:  DIALOGFLOW_ACCESS_TOKEN

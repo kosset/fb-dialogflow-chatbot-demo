@@ -1,0 +1,21 @@
+# Default Config File
+# Override properties in your own "local" config
+# Note: some properties may also be overridden by custom-environment-variables.yml
+
+# Web Service Config
+host: 0.0.0.0 # bind to all network interfaces
+port: 3000 # default port for our app
+
+# DB Configuration
+mongo:
+  url: "mongodb://127.0.0.1:27017/lardev_chatbot_demo"
+
+# Facebook
+facebook:
+  page_access_token:
+  verify_token:
+
+# Dialogflow
+dialogflow:
+  client_access_token:
+
